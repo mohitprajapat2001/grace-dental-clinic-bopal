@@ -26,7 +26,7 @@ export function Contact() {
                             transition={{ duration: 0.6, delay: 0.1 }}
                             className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto"
                         >
-                            We're here to help you achieve your perfect smile
+                            We&apos;re here to help you achieve your perfect smile
                         </motion.p>
                     </div>
 

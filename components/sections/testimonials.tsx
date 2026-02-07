@@ -94,7 +94,7 @@ export function Testimonials() {
                                 </div>
 
                                 <p className="text-lg sm:text-xl text-center mb-6 italic">
-                                    "{testimonials[currentIndex].text}"
+                                    &ldquo;{testimonials[currentIndex].text}&rdquo;
                                 </p>
 
                                 <div className="text-center">
@@ -115,8 +115,8 @@ export function Testimonials() {
                                     key={index}
                                     onClick={() => setCurrentIndex(index)}
                                     className={`w-2 h-2 rounded-full transition-all ${index === currentIndex
-                                            ? "bg-primary w-8"
-                                            : "bg-muted-foreground/30 hover:bg-muted-foreground/50"
+                                        ? "bg-primary w-8"
+                                        : "bg-muted-foreground/30 hover:bg-muted-foreground/50"
                                         }`}
                                     aria-label={`Go to testimonial ${index + 1}`}
                                 />

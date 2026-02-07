@@ -261,7 +261,7 @@ export function AppointmentCTA() {
                                         className="p-4 bg-secondary/10 border border-secondary rounded-xl text-center"
                                     >
                                         <p className="text-secondary font-medium">
-                                            ✓ Request submitted! We'll contact you shortly.
+                                            ✓ Request submitted! We&apos;ll contact you shortly.
                                         </p>
                                     </motion.div>
                                 )}

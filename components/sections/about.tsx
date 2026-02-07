@@ -92,7 +92,7 @@ export function About() {
                             transition={{ duration: 0.6, delay: 0.1 }}
                             className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto"
                         >
-                            South Bopal's trusted destination for comprehensive dental care and aesthetic treatments.
+                            South Bopal&apos;s trusted destination for comprehensive dental care and aesthetic treatments.
                             We combine medical excellence with a warm, caring approach.
                         </motion.p>
                     </motion.div>
